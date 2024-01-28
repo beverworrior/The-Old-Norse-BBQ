@@ -10,16 +10,13 @@
     <title>The Old Norse BBQ</title>
     <!-- stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
     <!-- header -->
     <header>
         <a href="history.html"></a>
         <h1 id="logo">The Old Norse Bbq</h1>
-
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">
-            <i class="fa-solid fa-bars"></i>
         <nav>
         <ul id="menu">
             <li><a href="index.html">Home</a></li>
@@ -35,10 +32,10 @@
             <form id="history-form" method="post">
                 <h2><i class="fa-solid fa-book-open"></i> Let's signed up</h2>
                 <label for="first_name">First Name</label>
-                <input type="text" name="first_name" class="text-input" required>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
                 <br>
                 <label for="last_name">Last Name</label>
-                <input type="text" name="last_name" class="text-input" required>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
                 <br>
                 <div class="radio-button">
                 </div>
@@ -58,6 +55,7 @@
                 <input type="radio" name="mythology-preference" id="hel" value="hel" required checked>
                 <label for="jörmungandr">Jörmungandr</label>
                 <input type="radio" name="mythology-preference" id="jörmungandr" value="jörmungandr" required checked>
+                <hr>
                 <button type="submit" class="join-button">Let's Learn</button>
             </form>
         </section>

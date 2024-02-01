@@ -129,3 +129,14 @@ hr {
     padding: 5%;
     color: #3a3a3a;
 }
+
+p {
+    margin-left: 30px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }

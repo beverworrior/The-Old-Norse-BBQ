@@ -15,7 +15,7 @@ I have find some specific infomation about the selected Gods.
 3. 
 
 ## Solutions
-1. After writing my code for over 1 hour i notice that my links work on the two other pages but not the main one. I have wrote the links after the </a> and before </li> when i change the location it's work.
+1. After writing my code for over 1 hour i notice that my links work on the two other pages but not the main one. I have wrote the links after the a and before li when i change the location it's work.
 2. Got a tip from my mentor then i found text-aling so that my page will looked more proper.
 3. 
 

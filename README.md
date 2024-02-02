@@ -21,9 +21,10 @@ I have find some specific infomation about the selected Gods.
 
 
 ## credits
+All of mine information, Pictures And help with my code.
 1. Go to https://www.pexels.com/ where i could get my free photos for my resturant. 
 2. Go to https://www.w3schools.com/ and https://learn.codeinstitute.net/dashboard for information to make my code work.
 3. go to https://www.freeconvert.com/webp-converter/download where i could convert my photo from jpg to webp files.
-4. go to 
-5. go to
+4. go to https://en.wikipedia.org/wiki/Norse_mythology
+5. go to https://www.britannica.com/topic/Germanic-religion-and-mythology
 

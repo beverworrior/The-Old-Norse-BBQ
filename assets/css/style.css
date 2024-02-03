@@ -146,3 +146,7 @@ p {
     background-color: #454b1b;
     color: #fafafa;
 }
+
+#signup-form {
+    margin-left: 4px;
+}

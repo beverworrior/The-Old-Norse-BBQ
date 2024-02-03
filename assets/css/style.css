@@ -57,9 +57,9 @@ header a {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being coverd by the header */
+    /* Add margin at the top to prevent content from being coved by the header */
     margin-top: 47px;
-    /* Enable flex proerties for child elements */
+    /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column; 
 
@@ -106,14 +106,14 @@ hr {
     padding: 15px;
     text-align: center;
     /* This will not wrap on screen of less the 400px width.
-    Each div will expand to fill the avaolable on its row */
+    Each div will expand to fill the available on its row */
     flex-basis: 200px;
     flex-grow: 1;
     border: 2px solid white;
 }
 
 #times h3 {
-    /* overides the headings colour set in general style */
+    /* overrides the headings color set in general style */
     color: #fafafafa;
 }
 

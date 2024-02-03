@@ -12,74 +12,64 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
         body {
-            background-color: crimson;
-            text-align: center;
+            background-image: url(assets/images/pexels-erik-mclean-5023691.webp);
         }
     </style>
 </head>
 <body>
     <!-- header -->
     <header>
-        <a href="menu.html"></a>
+        <a href="history.html"></a>
             <h1 id="logo">The Old Norse Bbq</h1>
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html" class="active">Food</a></li>
-                <li><a href="history.html">History</a></li>
+                <li><a href="menu.html">Food</a></li>
+                <li><a href="history.html" class="active">History</a></li>
             </ul>
         </nav>
     </header>
     <!-- Main Content-->
     <main>
-        <h1>Menu</h1>
-        <div id="food-menu">
-            <h3>Food <i class="fa-solid fa-drumstick-bite"></i></h3>
-            <ul>
-                <li>Meat skewer 119kr</li>
-                <li>Grilled steak 100g 119kr</li>
-                <li>Grilled steak 200g 219kr</li>
-                <li>Grilled steak 300g 319kr</li>
-                <li>Grilled fish 159kr</li>
-                <li>Hot pot 200kr</li>
-                <li>Grilled chicken wing 99kr</li>
-                <li>Whole Grilled chicken 203kr</li>
-                <li>Salad 119kr</li>
-            </ul>
-            <div id="drinks-menu">
-                <h3>Drinks <i class="fa-solid fa-beer-mug-empty"></i></h3>
-                <ul>
-                    <li>Mead 109kr</li>
-                    <li>Beer 99kr</li>
-                    <li>Cider 99kr</li>
-                    <li>Red wine glass 99kr</li>
-                    <li>Red wine bottle 545kr</li>
-                    <li>White wine glass 99kr</li>
-                    <li>White wine bottle 545kr</li>
-                    <li>Whiskey glass 124kr</li>
-                    <li>Whiskey bottle 1000kr</li>
-                </ul>
-            </div>
-            <div id="dessert-menu">
-                <h3>Dessert <i class="fa-solid fa-ice-cream"></i></h3>
-                <ul>
-                    <li>Cake tart 43kr</li>
-                    <li>Whole cake 650kr (10 pieces)</li>
-                    <li>Pie tart 45kr</li>
-                    <li>Whole Pie 450kr (10 pieces)</li>
-                    <li>Chocolate/Vanilla pudding 37kr</li>
-                    <li>Creme brûlée 42kr</li>
-                    <li>Ice-cream 57kr</li>
-                    <li>Cookies 47kr (5 pieces)</li>
-                </ul>
-            </div>
-        <img src="assets/images/smoke-1568953_640.webp" alt="skewer">
-        <img src="assets/images/abstract-1238657_640 copy.webp" alt="lamarck">
-        <img src="assets/images/barbecue-1239434_640.webp" alt="brisket">
-        <img src="assets/images/barbecue-932248_640.webp" alt="sausage">
-    </div>
+        <section id="signup">
+            <form id="signup-form" method="POST">
+                <h2> Let's get you signed up! <i class="fa-solid fa-book"></i></h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="thor">Thor</label>
+                        <input type="radio" name="thor" id="thor" value="thor" required checked>
+                    </div>
+                    <div>
+                        <label for="odin">Odin</label>
+                        <input type="radio" name="odin" id="odin" value="odin" required>
+                    </div>
+                    <div>
+                        <label for="loki">Loki</label>
+                        <input type="radio" name="loki" id="loki" value="loki" required>
+                    </div>
+                    <div>
+                        <label for="ragnarok">Ragnarok</label>
+                        <input type="radio" name="ragnarok" id="ragnarok" value="ragnarok" required>
+                    </div>
+                    <div>
+                        <label for="yggdrasil">Yggdrasil</label>
+                        <input type="radio" name="yggdrasil" id="yggdrasil" value="yggdrasil" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Valhalla!</button>
+            </form>
+        </section>
     </main>
-    <hr>
+    
         <!-- Footer -->
         <footer>
             <ul id="social-networks">

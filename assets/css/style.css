@@ -101,6 +101,7 @@ main {
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+    display: none;
 }
 
 #times div {

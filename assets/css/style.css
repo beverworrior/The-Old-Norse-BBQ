@@ -1,170 +1,101 @@
-/* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
-* {
-    padding: 0;
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
-/* General styles */
-body {
-    min-height: 100vh;
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+header, section, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #8fbc8f;
+    color: white;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.menu-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #8fbc8f;
+}
+
+.menu-item p {
+    margin: 5px 0;
+}
+
+.menu-item .price {
+    font-weight: bold;
+    color: #333;
+}
+
+form {
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
-    color: #ffffff;
-    font-family: 'Lato', sans-serif;
+    align-items: flex-start;
+    gap: 10px;
 }
 
-h1,
-h2,
-h3 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #ffffff;
-    margin-left: 30px;
+label {
+    margin-right: 10px;
 }
 
-/* Header */
-header {
-    padding: 0 1rem;
-    z-index: 99;
+button {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #8fbc8f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7aa87a;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 0.8em;
+    position: fixed;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    bottom: 0;
 }
 
-header a {
-    text-decoration: underline;
-    color: whitesmoke;
-    font-size: xx-large;
-    margin-left: 100px;
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
 }
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
-    text-align: center;
-}
-
-#menu > li {
-    margin-bottom: 1em;
-}
-
-/* Main content */
-main {
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being coved by the header */
-    margin-top: 47px;
-    /* Enable flex properties for child elements */
-    display: flex;
-    flex-direction: column; 
-
-}
-
-/* Final rgba value sets the opacity so it is semi-transparent */
-#cover-text {
-    background-color: rgba(87 161 58 / 70%);
-    font-size: 130%;
-    position: absolute;
-    bottom: 30px;
-    padding-left: 10px;
-    right: 30px;
-
-}
-
-#cover-text>h2,
-#cover-text>h3 {
-    color: #4d0f0f;
-    text-align: center;
-}
-
-#reasons {
-    width: 90%;
-    margin: 20px auto;
-
-}
-
-#reasons h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 280%;
-
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-    display: none;
-}
-
-#times div {
-    color: #fafafafa;
-    background-color: rgba(0, 0, 0, .6);
-    padding: 15px;
-    text-align: center;
-    /* This will not wrap on screen of less the 400px width.
-    Each div will expand to fill the available on its row */
-    flex-basis: 200px;
-    flex-grow: 1;
-    border: 2px solid white;
-}
-
-#times h3 {
-    /* overrides the headings color set in general style */
-    color: #fafafafa;
-}
-
-/* Footer */
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    font-size: xx-large;
-}
-
-#social-networks>i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-
-p {
-    margin-left: 30px;
-    color: #fafafa !important;
-}
-
-.Mjolnir {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px;
-    font-size: 100%;
-    background-color: #454b1b;
-    color: #fafafa;
-}
-
-#signup-form {
-    margin-left: 4px;
-}
-
-#first_name {
-    margin-left: 5px;
-}
-
-#last_name {
-    margin-left: 7px;
-}
-
-
-#email_address {
-    margin-left: 5px;
-}
-

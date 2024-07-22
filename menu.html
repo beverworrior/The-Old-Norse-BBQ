@@ -3,110 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Meta tags for search engines -->
-    <meta name="keywords" content="Bbq, Restaurant, Food, Norse, History, Coal, Fire,">
-    <meta name="description" content="A BBQ Restaurant with a good food and drinks. We also give information about Norse mythology">
-    <!-- Title -->
-    <title>The Old Norse BBQ</title>
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-        body {
-            background-color: #266d8f;
-            text-align: center;
-        }
-    </style>
+    <title>Menu - Nordic BBQ Restaurant</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <!-- header -->
+    <nav>
+        <ul>
+            <li><a href="index.html" aria-label="Home">Home</a></li>
+            <li><a href="menu.html" aria-label="Menu">Menu</a></li>
+            <li><a href="about.html" aria-label="About">About</a></li>
+            <li><a href="contact.html" aria-label="Contact">Contact</a></li>
+        </ul>
+    </nav>
     <header>
-            <h1 id="logo">The Old Norse Bbq</h1>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html" class="active">Food</a></li>
-                <li><a href="history.html">History</a></li>
-            </ul>
-        </nav>
+        <h1>Our Menu</h1>
     </header>
-    <!-- Main Content-->
     <main>
-        <h1>Menu</h1>
-        <div id="food-menu">
-            <h2>Food <i class="fa-solid fa-drumstick-bite"></i></h2>
-            <ul>
-                <li>Meat skewer 119kr</li>
-                <li>Grilled steak 100g 119kr</li>
-                <li>Grilled steak 200g 219kr</li>
-                <li>Grilled steak 300g 319kr</li>
-                <li>Grilled fish 159kr</li>
-                <li>Hot pot 200kr</li>
-                <li>Grilled chicken wing 99kr</li>
-                <li>Whole Grilled chicken 203kr</li>
-                <li>Salad 119kr</li>
-            </ul>
-            <div id="drinks-menu">
-                <h3>Drinks <i class="fa-solid fa-beer-mug-empty"></i></h3>
-                <ul>
-                    <li>Mead 109kr</li>
-                    <li>Beer 99kr</li>
-                    <li>Cider 99kr</li>
-                    <li>Red wine glass 99kr</li>
-                    <li>Red wine bottle 545kr</li>
-                    <li>White wine glass 99kr</li>
-                    <li>White wine bottle 545kr</li>
-                    <li>Whiskey glass 124kr</li>
-                    <li>Whiskey bottle 1000kr</li>
-                </ul>
+        <section>
+            <h2>BBQ Dishes</h2>
+            <div class="menu-item">
+                <h3>Nordic Smoked Salmon</h3>
+                <p>Delicately smoked salmon served with a side of creamy dill sauce.</p>
+                <p class="price">$25</p>
             </div>
-            <div id="dessert-menu">
-                <h3>Dessert <i class="fa-solid fa-ice-cream"></i></h3>
-                <ul>
-                    <li>Cake tart 43kr</li>
-                    <li>Whole cake 650kr (10 pieces)</li>
-                    <li>Pie tart 45kr</li>
-                    <li>Whole Pie 450kr (10 pieces)</li>
-                    <li>Chocolate/Vanilla pudding 37kr</li>
-                    <li>Creme brûlée 42kr</li>
-                    <li>Ice-cream 57kr</li>
-                    <li>Cookies 47kr (5 pieces)</li>
-                </ul>
+            <div class="menu-item">
+                <h3>BBQ Reindeer Ribs</h3>
+                <p>Succulent reindeer ribs, slow-cooked and glazed with our special BBQ sauce.</p>
+                <p class="price">$35</p>
             </div>
-        <img src="assets/images/smoke-1568953_640.webp" alt="skewer">
-        <img src="assets/images/abstract-1238657_640.webp" alt="lamarck">
-        <img src="assets/images/barbecue-1239434_640.webp" alt="brisket">
-        <img src="assets/images/barbecue-932248_640.webp" alt="sausage">
-    </div>
+            <div class="menu-item">
+                <h3>Grilled Mackerel</h3>
+                <p>Fresh mackerel, grilled to perfection and served with a lemon herb butter.</p>
+                <p class="price">$20</p>
+            </div>
+            <div class="menu-item">
+                <h3>BBQ Pork Belly</h3>
+                <p>Juicy pork belly, marinated and grilled, served with a tangy apple slaw.</p>
+                <p class="price">$22</p>
+            </div>
+            <div class="menu-item">
+                <h3>Grilled Vegetable Skewers</h3>
+                <p>A selection of seasonal vegetables, grilled and served with a garlic yogurt dip.</p>
+                <p class="price">$18</p>
+            </div>
+        </section>
     </main>
-    <hr>
-        <!-- Footer -->
-        <footer>
-            <ul id="social-networks">
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)">
-                        <i class="fa-brands fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page (opens in a new tab)">
-                        <i class="fa-brands fa-twitter-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our YouTube page (opens in a new tab)">
-                        <i class="fa-brands fa-youtube-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)">
-                        <i class="fa-brands fa-instagram"></i></a>
-                </li>
-            </ul>
-        </footer>
-
-        <!-- Font awesome kit -->
-        <script src="https://kit.fontawesome.com/9ee05d579f.js" crossorigin="anonymous"></script>
+    <footer>
+        <p>&copy; 2024 Nordic BBQ Restaurant</p>
+    </footer>
 </body>
-
 </html>

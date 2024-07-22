@@ -22,16 +22,16 @@ The website is deployed on GitHub Pages. [Visit the live site](https://beverworr
 ## Screenshots
 
 ### Home Page
-![Home Page](assets/css/images/Screenshot 2024-07-22 18.00.40.png/home.png)
+![Home Page](assets/css/images/Screenshot%202024-07-22%2018.00.40.png)
 
 ### Menu Page
-![Menu Page](assets/css/images/Screenshot 2024-07-22 18.00.55.png/menu.png)
+![Menu Page](assets/css/images/Screenshot%202024-07-22%2018.00.55.png)
 
 ### About Page
-![About Page](assets/css/images/Screenshot 2024-07-22 18.01.01.png/about.png)
+![About Page](assets/css/images/Screenshot%202024-07-22%2018.01.01.png)
 
 ### Contact Page
-![Contact Page](assets/css/images/Screenshot 2024-07-22 18.01.09.png/contact.png)
+![Contact Page](assets/css/images/Screenshot%202024-07-22%2018.01.09.png)
 
 ## Acknowledgements
 - 
